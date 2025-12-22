@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+out/
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
+
+# Process environment variables
+.env.defaults
+
+# Next.js / Vercel
+.next/
+.vercel/
+
+# Nuxt.js
+.nuxt/
+.output/
+
+# Electron
+release/
+packaged/
+
+# Yarn
+.yarn/
+.pnp.*
+.pnp.js
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Browsers
+*.tmp
+*.bak
+
+# Testing
+jspm_packages/
+
+# Sensitive files
+config/
+secrets.json
+
+# Database
+*.db
+*.db-journal
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Debug log
+debug.log
+
+# Production builds
+public/build/
+
+# Backend specific
+server/node_modules/
+
+# Frontend specific
+client/node_modules/
+client/buld/
